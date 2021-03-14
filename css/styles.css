@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'CamingoCode-Regular';
+}
+
+
+body {
+    background-image: url(/img/fondo7.jpg);
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/*Containers*/
+
+.container-main {
+    height: 100vh;
+}
+
+.container-main .full-container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    max-width: 1300px;
+    min-height: 80vh;
+    background-color: #f8e812;
+    border-radius: 30px;
+    overflow: hidden;
+}   
+
+.sider-bar-container {
+    max-width: 35%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 30px 30px 0 30px;
+    background-color: #f8e812;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.information-container {
+    width: 90%;
+    /*max-width: 860px;*/
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 29.5%;
+    border-radius: 30px;
+    background-color: #222;
+}
+
+/* header */
+
+.sider-bar-container .header-picture {
+    /*width: 100%;
+    height: 400px;*/
+    width: 100%;
+    max-width: 380px;
+    height: 100%;
+    max-height: 80vh;
+    padding: 70px 30px 45px;
+
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.sider-bar-container .header-picture .container-picture {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right: auto;
+    /*border: 1px solid #222;*/
+}
+
+
+.sider-bar-container .header-picture img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+}
+
+.sider-bar-container .header-picture .name-picture {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0 7px;
+    line-height: 1.2em;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: 'CamingoCode-Regular';
+}
+
+.sider-bar-container .header-picture .profession-picture {
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(59, 59, 59);
+    margin: auto;
+    line-height: 1.2em;
+    font-family: 'CamingoCode-Regular';
+}
+
+.sider-bar-container .header-picture .social-media .social-media-container ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sider-bar-container .header-picture .social-media .social-media-container ul li {
+    width: 20px;
+    list-style: none;
+}
+
+.sider-bar-container .header-picture .social-media .social-media-container ul li a {
+    text-decoration: none;
+    
+}
+
+
+
+.sider-bar-container .social-media .social-media-container ul li a .icono {
+    padding-top: 20px;
+    font-size: 25px !important;
+    color: #000;
+    margin-right: 15px;
+    opacity: 0.9;
+}

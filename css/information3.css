@@ -1,0 +1,18 @@
+.menu-container .full-container .information-container3 {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 105%;
+    width: 70%;
+    max-width: 1280px;
+    min-height: 80vh;
+    background-color: red;
+    transition: all .5s;
+}
+
+#resumen:checked ~ .full-container > .information-container3 {
+    left: 30%;
+}
