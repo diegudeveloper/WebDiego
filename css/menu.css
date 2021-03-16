@@ -8,6 +8,7 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    border-radius: 30px;
 }
 
 .container-main .menu-container .container-menu {
