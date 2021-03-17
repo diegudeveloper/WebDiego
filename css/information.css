@@ -1,22 +1,17 @@
 .menu-container .full-container .information-container {
-    border-radius: 30px;
+    border-radius: 0 30px 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0;
-    left: 30%;
+    left: 27.5%;
     width: 70%;
     max-width: 1300px;
     min-height: 80vh;
     transition: all .5s;
     background-color: #222;
-    
 }
-
-/*#about-me:checked ~ .full-container > .information-container {
-    left: 105%;
-}*/
 
 .container-main .menu-container .full-container .information-container h1, h3 {
     color: #fff;
