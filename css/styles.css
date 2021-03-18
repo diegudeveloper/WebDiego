@@ -16,14 +16,16 @@ body {
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center;
+    font-family: "CamingoCode-Regular";
     
 }
 
 /*Containers*/
 
 .container-main {
+    width: 100% !important;
     height: 100vh;
-    padding: 0 60px;
+    padding: 0 40px;
     overflow: hidden;
 }
 
