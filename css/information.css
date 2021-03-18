@@ -1,13 +1,14 @@
 .menu-container .full-container .information-container {
+    /*width: 860px;*/
     border-radius: 0 30px 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     top: 0;
-    left: 27.5%;
-    width: 70%;
-    max-width: 1300px;
+    left: 24%;
+    width: 65%;
+    /*max-width: 1300px;*/
     min-height: 80vh;
     transition: all .5s;
     background-color: #222;

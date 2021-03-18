@@ -27,14 +27,15 @@ body {
     height: 100vh;
     padding: 0 40px;
     overflow: hidden;
+    
 }
 
 .container-main .full-container {
+    /*width: 100%;*/
     position: relative;
     top: 50%;
+    left: 5%;
     transform: translateY(-50%);
-    width: 100%;
-    max-width: 1300px;
     min-height: 80vh;
     /*background-color: #f8e812;*/
     border-radius: 30px;
@@ -42,7 +43,8 @@ body {
 }   
 
 .sider-bar-container {
-    max-width: 28%;
+    width: 380px;
+    /*max-width: 28%;*/
     height: 80vh;
     position: absolute;
     top: 0;

@@ -6,7 +6,7 @@
     position: absolute;
     top: 0;
     left: 120%;
-    width: 70%;
+    width: 65%;
     max-width: 1300px;
     min-height: 80vh;
     background-color: yellow;
@@ -14,5 +14,5 @@
 }
 
 #blog:checked ~ .full-container > .information-container5 {
-    left: 27.5%;
+    left: 24%;
 }
