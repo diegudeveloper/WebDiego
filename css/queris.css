@@ -1,0 +1,9 @@
+@media screen and (min-width: 1280px) {
+
+    .sider-bar-container {
+        width: 330px;
+    }
+    .menu-container .full-container {
+        left: 0;
+    }
+}
