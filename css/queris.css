@@ -5,5 +5,39 @@
     }
     .menu-container .full-container {
         left: 0;
+        letter-spacing: 0.5rem;
+    }
+    .container-main .menu-container .full-container .information-container .presentaction h1 .firtName {
+        font-size: 3.5rem 
+    }
+    .container-main .menu-container .full-container .information-container .presentaction .name .llave {
+        font-size: 4rem;
+    }
+    .container-main .menu-container .full-container .information-container .presentaction .name .deve {
+        font-size: 3.5rem;
+    }
+    .container-main .menu-container .full-container .information-container .presentaction .profession {
+        font-size: 2.5rem;
+    }
+
+    /*sider-bar-container*/
+
+    .sider-bar-container .header-picture {
+        width: 100%;
+        padding: 10px 10px;
+    }
+    .sider-bar-container .header-picture .container-picture {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-content: flex-start;
+        align-items: center;
+    }
+    .sider-bar-container .header-picture img {
+        width: 70%;
+        height: 70%;
+    }
+    .sider-bar-container .header-picture .name-picture {
+
     }
 }

@@ -31,7 +31,7 @@ body {
 }
 
 .container-main .full-container {
-    /*width: 100%;*/
+    width: 100%;
     position: relative;
     top: 50%;
     left: 5%;
@@ -40,10 +40,12 @@ body {
     /*background-color: #f8e812;*/
     border-radius: 30px;
     /*overflow: hidden;*/
+
+    
 }   
 
 .sider-bar-container {
-    width: 380px;
+    width: 350px;
     /*max-width: 28%;*/
     height: 80vh;
     position: absolute;
@@ -55,6 +57,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    /*-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);*/
 }
 
 /* header */
