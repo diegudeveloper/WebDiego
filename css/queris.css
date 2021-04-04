@@ -1,15 +1,20 @@
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1280px) {
 
     .sider-bar-container {
-        width: 330px;
+        width: 280px;
     }
     .menu-container .full-container {
+        width: 1120px;
+        margin: 0 auto;
         left: 0;
         letter-spacing: 0.5rem;
     }
-    .container-main .menu-container .full-container .information-container .presentaction h1 .firtName {
-        font-size: 3.5rem 
+
+    .container-main .menu-container .container-menu {
+        right: 10px;
     }
+
+    
     .container-main .menu-container .full-container .information-container .presentaction .name .llave {
         font-size: 4rem;
     }
@@ -17,27 +22,65 @@
         font-size: 3.5rem;
     }
     .container-main .menu-container .full-container .information-container .presentaction .profession {
+        margin-top: 5px;
         font-size: 2.5rem;
     }
 
     /*sider-bar-container*/
 
+   
+
     .sider-bar-container .header-picture {
         width: 100%;
         padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .sider-bar-container .header-picture .container-picture {
-        width: 60%;
+        width: 150px;
+        height: 150px;
         display: flex;
         justify-content: center;
         align-content: flex-start;
         align-items: center;
     }
     .sider-bar-container .header-picture img {
-        width: 70%;
-        height: 70%;
+        width: 100%;
+        height: 100%;
     }
-    .sider-bar-container .header-picture .name-picture {
 
+    .sider-bar-container .header-picture .name-picture {
+        font-size: 2.5rem 
+    }
+    .sider-bar-container .header-picture .profession-picture {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.5rem 
+    }
+
+
+    .container-main .menu-container .full-container .information-container .presentaction h1 .firtName {
+        font-size: 3.5rem 
+    }
+
+
+    /* information*/ 
+
+    #about-me:checked ~ .full-container > .information-container2 {
+        left: 25%;
+    }
+
+    #resumen:checked ~ .full-container > .information-container3 {
+        left: 25%;
+    }
+    #portafolio:checked ~ .full-container > .information-container4 {
+        left: 25%;
+    }
+    #blog:checked ~ .full-container > .information-container5 {
+        left: 25%;
+    }
+    #contacto:checked ~ .full-container > .information-container6 {
+        left: 25%;
     }
 }
