@@ -45,9 +45,9 @@
 
 .information-container2 .presentaction .container_aboutme .me-date {
     width: 40%;
-    height: 300px;
+    height: auto;
     font-size: 1.7rem;
-    line-height: 4rem;
+    line-height: 3rem;
 }
 
 .information-container2 .presentaction .container_aboutme .me-date .me-dt {
