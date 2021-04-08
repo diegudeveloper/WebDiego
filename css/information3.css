@@ -9,10 +9,66 @@
     left: 120%;
     /*max-width: 1300px;*/
     min-height: 80vh;
-    background-color: red;
+    background-color: #222;
     transition: all .5s;
 }
 
 #resumen:checked ~ .full-container > .information-container3 {
     left: 26%;
+}
+
+.menu-container .full-container .information-container3 .presentaction {
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.menu-container .full-container .information-container3 .presentaction .resume {
+    width: 100%;
+    font-size: 3.5rem;
+    padding: 70px 15px 10PX 15PX;
+    color: #d5d5d5;
+}
+
+.menu-container .full-container .information-container3 .presentaction .text-resumen {
+    width: 100%;
+    font-size: 2.5rem;
+    padding: 0 15px 10px 15px;
+    color: #d5d5d5;
+}
+
+.menu-container .full-container .information-container3 .presentaction .container-text-resumen {
+    width: 100%;
+    height: auto;
+}
+
+.menu-container .full-container .information-container3 .presentaction .container-text-resumen .container-text {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.menu-container .full-container .information-container3 .presentaction .container-text-resumen .container-text .dafe-container {
+    width:10%;
+    padding-left: 15px;
+    max-width: 120px;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #d5d5d5;
+}
+
+.menu-container .full-container .information-container3 .presentaction .container-text-resumen .container-text .line {
+    width: 2px;
+    height: 70px;
+    background-color: #f8e812;
+    opacity: 0.5;
+}
+
+.menu-container .full-container .information-container3 .presentaction .container-text-resumen .container-text .information-education {
+    width: 70%;
+    height: auto;
+    padding-left: 20px;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #d5d5d5;
 }
