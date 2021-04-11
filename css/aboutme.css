@@ -39,15 +39,14 @@
     text-align: initial;
     padding: 0 15px;
     color: #d5d5d5;
-    line-height: 2.1rem;
-    font-family: 'CamingoCode-Regular';
+    line-height: 2.5rem;
 }
 
 .information-container2 .presentaction .container_aboutme .me-date {
     width: 40%;
     height: auto;
     font-size: 1.7rem;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .information-container2 .presentaction .container_aboutme .me-date .me-dt {

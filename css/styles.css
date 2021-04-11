@@ -16,7 +16,7 @@ body {
     background-blend-mode: soft-light;
     background-size: cover;
     background-position: center;
-    font-family: "CamingoCode-Regular";
+    font-family: 'Poppins', sans-serif;
     
 }
 
@@ -111,7 +111,6 @@ body {
 }
 
 .sider-bar-container .header-picture .name-picture {
-    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 600;
     color: #000;
@@ -125,7 +124,6 @@ body {
 
 .sider-bar-container .header-picture .profession-picture {
     width: 70%;
-    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: rgb(59, 59, 59);
