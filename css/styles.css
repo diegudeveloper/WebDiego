@@ -112,24 +112,22 @@ body {
 
 .sider-bar-container .header-picture .name-picture {
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 700;
     color: #000;
     margin: 5px 0 7px;
     line-height: 1.2em;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 5px;
-    font-family: 'CamingoCode-Regular';
 }
 
 .sider-bar-container .header-picture .profession-picture {
     width: 70%;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 500;
     color: rgb(59, 59, 59);
     margin: auto;
     line-height: 1.2em;
-    font-family: 'CamingoCode-Regular';
 }
 
 .sider-bar-container .header-picture .social-media .social-media-container ul {
